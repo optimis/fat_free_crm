@@ -41,6 +41,6 @@ production:
   encoding: utf8
   database: fat_free_crm_production
   pool: 5
-  username: root
-  password: 
+  username: fat_free
+  password: 23#3_4
   socket: /tmp/mysql.sock
