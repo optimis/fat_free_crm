@@ -6,6 +6,6 @@ crm:
     branch: master
     config_repository: "git@github.com:optimis/wd-config.git"
     config_branch: master
-    deploy_to: "/var/www/fat-free-crm/"
+    deploy_to: "/var/www/crm/"
     deploy_config_to: "/var/www/wd-config/"
     post_deploy_script: "script/bootstrap_bundler"
