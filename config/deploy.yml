@@ -1,5 +1,5 @@
 crm:
-  production:
+  staging:
     domain:
     - devel@crm.optimisdev.com
     repository:  "git@github.com:optimis/fat_free_crm.git"
@@ -8,4 +8,3 @@ crm:
     config_branch: master
     deploy_to: "/var/www/crm/"
     deploy_config_to: "/var/www/wd-config/"
-    post_deploy_script: "script/bootstrap_bundler"
